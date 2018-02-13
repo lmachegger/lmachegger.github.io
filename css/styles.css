@@ -44,6 +44,7 @@ body{
 		/*width: 100%;*/
 		transform: translate3d(100vw, 0px, 0px);
 		color: rgba(200,200,200,0);
+		opacity:0;
 	}
 
 	to {
@@ -51,6 +52,7 @@ body{
 		/*width: 100%;*/
 		transform: translate3d(0px, 0px, 0px);
 		color: rgba(200,200,200,255);
+		opacity:1;
 	}
   }
 
