@@ -50,7 +50,7 @@ body{
 		/*margin-left: 25%;
 		/*width: 100%;*/
 		transform: translate3d(0px, 0px, 0px);
-		opacity:0.1;
+		opacity:1;
 	}
   }
 
@@ -77,43 +77,57 @@ body{
 }
 
 #name{
+	opacity: 0;
 	animation-delay: 0.2s;
-	animation-duration: 5s;
+	animation-duration: .5s;
 	animation-name: slidein;
+	animation-fill-mode: forwards;
 }
 #jobtitle{
+	opacity: 0;
 	animation-delay: 0.3s;
-	animation-duration: 5s;
+	animation-duration: .5s;
 	animation-name: slidein;
+	animation-fill-mode: forwards;
 }
 #description{
+	opacity: 0;
 	animation-delay: 0.4s;
-	animation-duration: 5s;
+	animation-duration: .5s;
 	animation-name: slidein;
+	animation-fill-mode: forwards;
 }
 
 #socialicons{
+	opacity: 0;
 	text-align:center;
 	animation-delay: 0.5s;
 	animation-duration: .5s;
 	animation-name: slidein;
+	animation-fill-mode: forwards;
 }
 
 #prevWork{
+	opacity: 0;
 	animation-delay: 0.6s;
 	animation-duration: .5s;
 	animation-name: slidein;
+	animation-fill-mode: forwards;
 }
 
 #work{
+	opacity: 0;
 	animation-delay: 0.7s;
 	animation-duration: .5s;
 	animation-name: slidein;
+	animation-fill-mode: forwards;
 }
 #footer{
+	opacity: 0;
 	animation-delay: 0.8s;
 	animation-duration: .5s;
 	animation-name: slidein;
+	animation-fill-mode: forwards;
 }
 
 #socialicons img{
@@ -164,6 +178,7 @@ body{
 img[src="img/LM.png"]{
 	/*position: absolute;
 	right: -140px;*/
+	opacity: 0;
 	height: 140px;
 	width: 140px;	
 	display: block;
@@ -173,6 +188,7 @@ img[src="img/LM.png"]{
 	animation-delay: 0.1s;
 	animation-duration: .5s;
 	animation-name: slidein;
+	animation-fill-mode: forwards;
 }
 
 
