@@ -1,3 +1,120 @@
 body{
-	background-color: Gray;
+	background-color: rgb(30,25,25);
+}
+
+#content{
+	padding-top: 5%;
+	margin: auto;
+    width: 25%;
+    
+}
+
+#content p{
+	text-align:center;
+	font-family:"Open Sans", sans-serif;
+	font-size: 14px;
+	color: rgb(200,200,200);
+	line-height: 21px;
+	vertical-align: baseline;
+	font-weight: 400px;
+	padding-top: 20px;
+}
+#content h2{
+	text-align:center;
+	font-family:"Open Sans", sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: rgb(200,200,200);
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 2px;
+}
+#content h1{
+	text-align:center;
+	font-family:"Raleway", sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: rgb(200,200,200);
+	line-height: 40px;
+	letter-spacing: 6px;
+	font-weight: 300;
+}
+
+#socialicons{
+	text-align:center;
+}
+
+#socialicons img{
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px; 
+	padding-top: 5px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+
+.wrapper{
+	text-align: center;
+	display: block;
+}
+
+.wrapper li{
+	
+    float: left;
+    padding: 2px 5px;
+	list-style-type: none;
+	clear: left;
+	padding-bottom: 5px;
+}
+.wrapper ul{
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	/* For IE, the outcast */
+	zoom:1;
+	*display: inline;
+	font-family:"Open Sans", sans-serif;
+	font-size: 14px;
+	
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(200,200,200);
+    text-align: center;
+}
+
+img[src="img/LM.png"]{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 140px;
+	width: 140px;
+	padding: 20px;
+}
+
+a:link {
+    color: rgb(200,200,200);
+	text-decoration: none;
+}
+a:visited {
+    color: rgb(200,200,200);
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(200,200,200);
+    text-decoration: underline;
+}
+
+a:active {
+	color: rgb(242, 102, 0);
+    text-decoration: underline;
 }
