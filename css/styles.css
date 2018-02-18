@@ -113,7 +113,7 @@ body{
 	animation-duration: .5s;
 	animation-name: slidein;
 	animation-fill-mode: forwards;
-}
+} 
 
 #work{
 	opacity: 0;
