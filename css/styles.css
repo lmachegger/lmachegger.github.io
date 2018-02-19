@@ -1,5 +1,6 @@
 body{
-	background-color: rgb(30,25,25);
+	/*background-color: rgb(30,25,25);*/
+	background-color: rgb(71, 70, 69);
 }
 
 #content{
@@ -31,7 +32,7 @@ body{
 	text-align:center;
 	font-family:"Open Sans", sans-serif;
 	font-size: 14px;
-	color: rgb(200,200,200);
+	color: rgb(220,220,220);
 	line-height: 21px;
 	vertical-align: baseline;
 	font-weight: 400px;
@@ -59,7 +60,7 @@ body{
 	font-family:"Open Sans", sans-serif;
 	text-transform: uppercase;
 	font-size: 14px;
-	color: rgb(200,200,200);
+	color: rgb(220,220,220);
 	font-weight: 400;
 	line-height: 21px;
 	letter-spacing: 2px;
@@ -70,7 +71,7 @@ body{
 	font-family:"Raleway", sans-serif;
 	font-size: 24px;
 	text-transform: uppercase;
-	color: rgb(200,200,200);
+	color: rgb(220,220,220);
 	line-height: 40px;
 	letter-spacing: 6px;
 	font-weight: 300;
@@ -169,7 +170,7 @@ body{
 
 .footer, .push {
 	height: 50px;
-    color: rgb(200,200,200);
+    color: rgb(220,220,220);
     text-align: center;
 }
 
@@ -192,15 +193,15 @@ img[src="img/LM.png"]{
 
 
 a:link {
-    color: rgb(200,200,200);
+    color: rgb(220,220,220);
 	text-decoration: none;
 }
 a:visited {
-    color: rgb(200,200,200);
+    color: rgb(220,220,220);
 	text-decoration: none;
 }
 a:hover {
-	color: rgb(200,200,200);
+	color: rgb(220,220,220);
     text-decoration: underline;
 }
 
