@@ -194,6 +194,11 @@ body{
 	*display: inline;
 	font-family:"Open Sans", sans-serif;
 	font-size: 14px;	
+	opacity: 0;
+	animation-delay: 0.8s;
+	animation-duration: .5s;
+	animation-name: slidein;
+	animation-fill-mode: forwards;
 }
 
 .footer li{
