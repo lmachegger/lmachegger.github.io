@@ -136,8 +136,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     height: 30px; 
-	padding-top: 5px;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 25px;
 	padding-left: 5px;
 	padding-right: 5px;
 }
@@ -147,25 +147,67 @@ body{
 	display: block;
 }
 
-.wrapper li{
-	
-    float: left;
+.wrapper ul li{
+
+	/*float: left;
     padding: 2px 5px;
 	list-style-type: none;
 	clear: left;
 	padding-bottom: 5px;
+	text-align: center;*/
+	flex: 1; /* distribute all available space evenly among flex items */
+	display: flex; /* make each flex item a flex container, as well */
+	align-items: center; /* center text vertically (in this case) */
+    justify-content: center;  /* center text horizontally (in this case) */
+	padding: 2px 5px;
+	padding-bottom: 5px;
+	
 }
 .wrapper ul{
+	flex-direction: column;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+	/*text-align: center;
 	vertical-align: middle;
 	display: inline-block;
 	margin: 0;
 	padding: 0;
 	/* For IE, the outcast */
-	zoom:1;
-	*display: inline;
+	/*zoom:1;
+	*display: inline;*/
 	font-family:"Open Sans", sans-serif;
 	font-size: 14px;
 	
+}
+
+
+.footer ul{
+	text-align: center;
+	/*vertical-align: middle;*/
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	padding-top: 30px;
+	/* For IE, the outcast */
+	zoom:1;
+	*display: inline;
+	font-family:"Open Sans", sans-serif;
+	font-size: 14px;	
+}
+
+.footer li{
+
+    display:inline-block;
+	/*float: left;
+    padding: 2px 5px;
+	list-style-type: none;
+	clear: left;
+	padding-bottom: 5px;
+	text-align: center;*/
+	height: 2em;
+	padding: 2px 5px;
+	padding-top: 5px;
 }
 
 .footer, .push {
