@@ -1,12 +1,12 @@
 body{
 	/*background-color: rgb(30,25,25);*/
-	background-color: rgb(38, 50, 56);
+	background-color: rgb(10, 10, 10);
 }
 
 #content{
 		padding-top: 0.25%;
 		margin: auto;
-		width: 90%;
+		width: 30%;
 		
 	}
 	
@@ -14,7 +14,7 @@ body{
 	#content{
 		padding-top: 1.5%;
 		margin: auto;
-		width: 65%;
+		width: 25%;
 		
 	}
 }
@@ -23,17 +23,17 @@ body{
 	#content{
 		padding-top: 3%;
 		margin: auto;
-		width: 35%;
+		width: 25%;
 		
 	}
 }
 
 #content p{
 	text-align:center;
-	font-family:"Open Sans", sans-serif;
-	font-size: 14px;
-	color: rgb(220,220,220);
-	line-height: 21px;
+	font-family:"Trade Gothic LT Com Roman", sans-serif;
+	font-size: 16px;
+	color:rgb(190,190,190);
+	line-height: 26px;
 	vertical-align: baseline;
 	font-weight: 400px;
 	padding-top: 20px;
@@ -43,7 +43,7 @@ body{
 	from{
 		/*margin-left: 100%;
 		/*width: 100%;*/
-		transform: translate3d(100vw, 0px, 0px);
+		transform: translate3d(5vw, 0px, 0px);
 		opacity:0;
 	}
 
@@ -57,10 +57,10 @@ body{
 
 #content h2{
 	text-align:center;
-	font-family:"Open Sans", sans-serif;
+	font-family:"TradeGothicLTComBoldCondensed20", sans-serif;
 	text-transform: uppercase;
-	font-size: 14px;
-	color: rgb(220,220,220);
+	font-size: 20px;
+	color: rgb(255,255,255);
 	font-weight: 400;
 	line-height: 21px;
 	letter-spacing: 2px;
@@ -68,13 +68,13 @@ body{
 }
 #content h1{
 	text-align:center;
-	font-family:"Raleway", sans-serif;
-	font-size: 24px;
+	font-family:"TradeGothicLTComBoldCondensed20", sans-serif;
+	font-size: 26px;
 	text-transform: uppercase;
-	color: rgb(220,220,220);
-	line-height: 40px;
-	letter-spacing: 6px;
-	font-weight: 300;
+	color: #ffffff;
+	line-height: 32px;
+	letter-spacing: 3px
+	font-weight: 400;
 }
 
 #name{
@@ -176,9 +176,10 @@ body{
 	/* For IE, the outcast */
 	/*zoom:1;
 	*display: inline;*/
-	font-family:"Open Sans", sans-serif;
-	font-size: 14px;
-	
+	font-family:"Trade Gothic LT Com Roman", sans-serif;
+	font-size: 15px;
+	color:rgb(190,190,190);
+	line-height: 16px;
 }
 
 
@@ -192,13 +193,15 @@ body{
 	/* For IE, the outcast */
 	zoom:1;
 	*display: inline;
-	font-family:"Open Sans", sans-serif;
-	font-size: 14px;	
+	font-family:"Trade Gothic LT Com Roman", sans-serif;
+	font-size: 15px;
+	color:rgb(190,190,190);
 	opacity: 0;
 	animation-delay: 0.8s;
 	animation-duration: .5s;
 	animation-name: slidein;
 	animation-fill-mode: forwards;
+	line-height: 16px;
 }
 
 .footer li{
@@ -237,7 +240,16 @@ img[src="img/LM.png"]{
 	animation-fill-mode: forwards;
 }
 
-
+#FreshLink {
+	text-align:center;
+	font-family:"Trade Gothic LT Com Roman", sans-serif;
+	font-size: 16px;
+	color:rgb(220,220,220);
+	line-height: 26px;
+	vertical-align: baseline;
+	font-weight: 400px;
+	padding-top: 20px;
+}
 
 a:link {
     color: rgb(220,220,220);
