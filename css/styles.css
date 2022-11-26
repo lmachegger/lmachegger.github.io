@@ -1,269 +1,217 @@
-body{
-	/*background-color: rgb(30,25,25);*/
-	background-color: rgb(10, 10, 10);
+body {
+  /*background-color: rgb(30,25,25);*/
+  background-color: rgb(10, 10, 10);
 }
 
-#content{
-		padding-top: 0.25%;
-		margin: auto;
-		width: 90%;
-		
-	}
-	
+#content {
+  padding-top: 0.25%;
+  margin: auto;
+  width: 90%;
+}
+
 @media only screen and (min-width: 600px) {
-	#content{
-		padding-top: 1.5%;
-		margin: auto;
-		width: 65%;		
-	}
+  #content {
+    padding-top: 1.5%;
+    margin: auto;
+    width: 68%;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
-	#content{
-		padding-top: 3%;
-		margin: auto;
-		width: 25%;
-		
-	}
+  #content {
+    padding-top: 3%;
+    margin: auto;
+    width: 32%;
+  }
 }
 
-#content p{
-	text-align:center;
-	font-family:"Trade Gothic LT Com Roman", sans-serif;
-	font-size: 16px;
-	color:rgb(190,190,190);
-	line-height: 26px;
-	vertical-align: baseline;
-	font-weight: 400px;
-	padding-top: 20px;
+#content p {
+  text-align: center;
+  font-family: "Trade Gothic LT Com Roman", sans-serif;
+  font-size: 16px;
+  color: rgb(190, 190, 190);
+  line-height: 26px;
+  vertical-align: baseline;
+  font-weight: 400px;
+  padding-top: 20px;
 }
 
-@keyframes slidein{
-	from{
-		/*margin-left: 100%;
+@keyframes slidein {
+  from {
+    /*margin-left: 100%;
 		/*width: 100%;*/
-		transform: translate3d(5vw, 0px, 0px);
-		opacity:0;
-	}
-
-	to {
-		/*margin-left: 25%;
-		/*width: 100%;*/
-		transform: translate3d(0px, 0px, 0px);
-		opacity:1;
-	}
+    transform: translate3d(5vw, 0px, 0px);
+    opacity: 0;
   }
 
-#content h2{
-	text-align:center;
-	font-family:"TradeGothicLTComBoldCondensed20", sans-serif;
-	text-transform: uppercase;
-	font-size: 20px;
-	color: rgb(255,255,255);
-	font-weight: 400;
-	line-height: 21px;
-	letter-spacing: 2px;
-	
-}
-#content h1{
-	text-align:center;
-	font-family:"TradeGothicLTComBoldCondensed20", sans-serif;
-	font-size: 26px;
-	text-transform: uppercase;
-	color: #ffffff;
-	line-height: 32px;
-	letter-spacing: 3px
-	font-weight: 400;
+  to {
+    /*margin-left: 25%;
+		/*width: 100%;*/
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 1;
+  }
 }
 
-#name{
-	opacity: 0;
-	animation-delay: 0.2s;
-	animation-duration: .5s;
-	animation-name: slidein;
-	animation-fill-mode: forwards;
+#content h2 {
+  text-align: center;
+  font-family: "TradeGothicLTComBoldCondensed20", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 2px;
 }
-#jobtitle{
-	opacity: 0;
-	animation-delay: 0.3s;
-	animation-duration: .5s;
-	animation-name: slidein;
-	animation-fill-mode: forwards;
-}
-#description{
-	opacity: 0;
-	animation-delay: 0.4s;
-	animation-duration: .5s;
-	animation-name: slidein;
-	animation-fill-mode: forwards;
-}
-
-#socialicons{
-	opacity: 0;
-	text-align:center;
-	animation-delay: 0.5s;
-	animation-duration: .5s;
-	animation-name: slidein;
-	animation-fill-mode: forwards;
+#content h1 {
+  text-align: center;
+  font-family: "TradeGothicLTComBoldCondensed20", sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 32px;
+  letter-spacing: 3px;
+  font-weight: 400;
 }
 
-#prevWork{
-	opacity: 0;
-	animation-delay: 0.6s;
-	animation-duration: .5s;
-	animation-name: slidein;
-	animation-fill-mode: forwards;
-} 
-
-#work{
-	opacity: 0;
-	animation-delay: 0.7s;
-	animation-duration: .5s;
-	animation-name: slidein;
-	animation-fill-mode: forwards;
+#name {
+  opacity: 0;
+  animation-delay: 0.2s;
+  animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
 }
-#footer{
-	opacity: 0;
-	animation-delay: 0.8s;
-	animation-duration: .5s;
-	animation-name: slidein;
-	animation-fill-mode: forwards;
+#jobtitle {
+  opacity: 0;
+  animation-delay: 0.3s;
+  animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
 }
-
-#socialicons img{
-	display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30px; 
-	padding-top: 10px;
-	padding-bottom: 25px;
-	padding-left: 5px;
-	padding-right: 5px;
+#description {
+  opacity: 0;
+  animation-delay: 0.4s;
+  animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
 }
 
-.wrapper{
-	text-align: center;
-	display: block;
+#socialicons {
+  opacity: 0;
+  text-align: center;
+  animation-delay: 0.5s;
+  animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
 }
 
-.wrapper ul li{
+#prevWork {
+  opacity: 0;
+  animation-delay: 0.6s;
+  animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
 
-	/*float: left;
+#work {
+  opacity: 0;
+  animation-delay: 0.7s;
+  animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
+#footer {
+  opacity: 0;
+  animation-delay: 0.8s;
+  animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
+
+#socialicons img {
+  display: inline-block;
+  margin: 0.5em;
+  height: 30px;
+}
+
+.wrapper {
+  text-align: center;
+  display: block;
+}
+
+.wrapper ul li {
+  flex: 1; /* distribute all available space evenly among flex items */
+  display: flex; /* make each flex item a flex container, as well */
+  align-items: center; /* center text vertically (in this case) */
+  justify-content: center; /* center text horizontally (in this case) */
+  padding: 2px 5px;
+  padding-bottom: 5px;
+}
+.wrapper ul {
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Trade Gothic LT Com Roman", sans-serif;
+  font-size: 15px;
+  color: rgb(190, 190, 190);
+  line-height: 16px;
+}
+
+.footer ul {
+  text-align: center;
+  /*vertical-align: middle;*/
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  /* For IE, the outcast */
+  zoom: 1;
+  *display: inline;
+  font-family: "Trade Gothic LT Com Roman", sans-serif;
+  font-size: 15px;
+  color: rgb(190, 190, 190);
+  opacity: 0;
+  animation-delay: 0.8s;
+  animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+  line-height: 16px;
+}
+
+.footer li {
+  display: inline-block;
+  /*float: left;
     padding: 2px 5px;
 	list-style-type: none;
 	clear: left;
 	padding-bottom: 5px;
 	text-align: center;*/
-	flex: 1; /* distribute all available space evenly among flex items */
-	display: flex; /* make each flex item a flex container, as well */
-	align-items: center; /* center text vertically (in this case) */
-    justify-content: center;  /* center text horizontally (in this case) */
-	padding: 2px 5px;
-	padding-bottom: 5px;
-	
-}
-.wrapper ul{
-	flex-direction: column;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-	/*text-align: center;
-	vertical-align: middle;
-	display: inline-block;
-	margin: 0;
-	padding: 0;
-	/* For IE, the outcast */
-	/*zoom:1;
-	*display: inline;*/
-	font-family:"Trade Gothic LT Com Roman", sans-serif;
-	font-size: 15px;
-	color:rgb(190,190,190);
-	line-height: 16px;
+  height: 2em;
+  padding: 2px 5px;
+  padding-top: 5px;
 }
 
-
-.footer ul{
-	text-align: center;
-	/*vertical-align: middle;*/
-	display: inline-block;
-	margin: 0;
-	padding: 0;
-	padding-top: 30px;
-	/* For IE, the outcast */
-	zoom:1;
-	*display: inline;
-	font-family:"Trade Gothic LT Com Roman", sans-serif;
-	font-size: 15px;
-	color:rgb(190,190,190);
-	opacity: 0;
-	animation-delay: 0.8s;
-	animation-duration: .5s;
-	animation-name: slidein;
-	animation-fill-mode: forwards;
-	line-height: 16px;
-}
-
-.footer li{
-
-    display:inline-block;
-	/*float: left;
-    padding: 2px 5px;
-	list-style-type: none;
-	clear: left;
-	padding-bottom: 5px;
-	text-align: center;*/
-	height: 2em;
-	padding: 2px 5px;
-	padding-top: 5px;
-}
-
-.footer, .push {
-	height: 50px;
-    color: rgb(220,220,220);
-    text-align: center;
-}
-
-img[src="img/LM.png"]{
-	/*position: absolute;
-	right: -140px;*/
-	opacity: 0;
-	height: 140px;
-	width: 140px;	
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px;
-	animation-delay: 0.1s;
-	animation-duration: .5s;
-	animation-name: slidein;
-	animation-fill-mode: forwards;
-}
-
-#FreshLink {
-	text-align:center;
-	font-family:"Trade Gothic LT Com Roman", sans-serif;
-	font-size: 16px;
-	color:rgb(220,220,220);
-	line-height: 26px;
-	vertical-align: baseline;
-	font-weight: 400px;
-	padding-top: 20px;
+.footer,
+.push {
+  height: 50px;
+  color: rgb(220, 220, 220);
+  text-align: center;
 }
 
 a:link {
-    color: rgb(220,220,220);
-	text-decoration: none;
+  color: rgb(220, 220, 220);
+  text-decoration: none;
 }
 a:visited {
-    color: rgb(220,220,220);
-	text-decoration: none;
+  color: rgb(220, 220, 220);
+  text-decoration: none;
 }
 a:hover {
-	color: rgb(220,220,220);
-    text-decoration: underline;
+  color: rgb(220, 220, 220);
+  text-decoration: underline;
 }
 
 a:active {
-	color: rgb(242, 102, 0);
-    text-decoration: underline;
+  color: rgb(242, 102, 0);
+  text-decoration: underline;
 }
