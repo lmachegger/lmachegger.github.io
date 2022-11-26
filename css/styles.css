@@ -58,6 +58,7 @@ body {
   line-height: 21px;
   letter-spacing: 2px;
 }
+
 #content h1 {
   text-align: center;
   font-family: "TradeGothicLTComBoldCondensed20", sans-serif;
@@ -76,6 +77,7 @@ body {
   animation-name: slidein;
   animation-fill-mode: forwards;
 }
+
 #jobtitle {
   opacity: 0;
   animation-delay: 0.3s;
@@ -83,6 +85,7 @@ body {
   animation-name: slidein;
   animation-fill-mode: forwards;
 }
+
 #description {
   opacity: 0;
   animation-delay: 0.4s;
@@ -90,6 +93,13 @@ body {
   animation-name: slidein;
   animation-fill-mode: forwards;
   margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#description p {
+  display: inline;
 }
 
 #socialicons-text {
@@ -122,21 +132,26 @@ body {
 }
 
 a:link {
-  color: rgb(220, 220, 220);
+  color: rgb(190, 190, 190);
   text-decoration: none;
 }
 a:visited {
-  color: rgb(220, 220, 220);
+  color: rgb(190, 190, 190);
   text-decoration: none;
 }
 a:hover {
-  color: rgb(220, 220, 220);
+  color: rgb(190, 190, 190);
   text-decoration: underline;
 }
 
 a:active {
   color: rgb(242, 102, 0);
   text-decoration: underline;
+}
+
+#chargepoint-link {
+  font-family: "Trade Gothic LT Com Roman", sans-serif;
+  font-size: 16px;
 }
 
 #footer-container {
