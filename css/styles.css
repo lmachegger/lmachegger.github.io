@@ -31,7 +31,7 @@ body {
   text-align: center;
   font-family: "Trade Gothic LT Com Roman", sans-serif;
   font-size: 16px;
-  color: rgb(190, 190, 190);
+  color: rgb(220, 220, 220);
   line-height: 26px;
   vertical-align: baseline;
 }
@@ -48,6 +48,60 @@ body {
   }
 }
 
+#profile-image {
+  display: block;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  -webkit-border-radius: 180px;
+  -moz-border-radius: 180px;
+  -ms-border-radius: 180px;
+  -o-border-radius: 180px;
+  border-radius: 180px;
+
+  position: relative; /* for the overlay later */
+  margin: 3.5em auto 1.5em;
+  text-align: center;
+  /* margin-bottom: 10px; */
+  border: 2px solid #bebebe;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),
+    inset 0px 3px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),
+    inset 0px 3px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),
+    inset 0px 3px 8px rgba(0, 0, 0, 0.3);
+
+  opacity: 0;
+  animation-delay: 0.2s;
+  animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
+
+#profile-image img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  /* make resized images look good in IE */
+  -ms-interpolation-mode: bicubic;
+}
+
+#dev-icons {
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  animation-delay: 0.5s;
+  animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
+
+#dev-icons img {
+  width: 22px;
+  margin: 0.22em;
+}
+
 #content h2 {
   text-align: center;
   font-family: "TradeGothicLTComBoldCondensed20", sans-serif;
@@ -57,6 +111,7 @@ body {
   font-weight: 400;
   line-height: 21px;
   letter-spacing: 2px;
+  margin-bottom: 0.6em;
 }
 
 #content h1 {
@@ -68,17 +123,10 @@ body {
   line-height: 32px;
   letter-spacing: 3px;
   font-weight: 400;
+  margin-bottom: 1.6em;
 }
 
 #name {
-  opacity: 0;
-  animation-delay: 0.2s;
-  animation-duration: 0.5s;
-  animation-name: slidein;
-  animation-fill-mode: forwards;
-}
-
-#jobtitle {
   opacity: 0;
   animation-delay: 0.3s;
   animation-duration: 0.5s;
@@ -86,13 +134,21 @@ body {
   animation-fill-mode: forwards;
 }
 
-#description {
+#jobtitle {
   opacity: 0;
   animation-delay: 0.4s;
   animation-duration: 0.5s;
   animation-name: slidein;
   animation-fill-mode: forwards;
-  margin: 30px 0;
+}
+
+#description {
+  opacity: 0;
+  animation-delay: 0.6s;
+  animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+  margin: 0 0 1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,7 +160,7 @@ body {
 
 #socialicons-text {
   opacity: 0;
-  animation-delay: 0.5s;
+  animation-delay: 0.7s;
   animation-duration: 0.5s;
   animation-name: slidein;
   animation-fill-mode: forwards;
@@ -120,7 +176,7 @@ body {
   justify-content: center;
   opacity: 0;
   text-align: center;
-  animation-delay: 0.5s;
+  animation-delay: 0.8s;
   animation-duration: 0.5s;
   animation-name: slidein;
   animation-fill-mode: forwards;
@@ -132,15 +188,15 @@ body {
 }
 
 a:link {
-  color: rgb(190, 190, 190);
+  color: rgb(220, 220, 220);
   text-decoration: none;
 }
 a:visited {
-  color: rgb(190, 190, 190);
+  color: rgb(220, 220, 220);
   text-decoration: none;
 }
 a:hover {
-  color: rgb(190, 190, 190);
+  color: rgb(220, 220, 220);
   text-decoration: underline;
 }
 
@@ -158,7 +214,7 @@ a:active {
   width: 100%;
   margin-top: 0.5em;
   opacity: 0;
-  animation-delay: 0.6s;
+  animation-delay: 0.9s;
   animation-duration: 0.5s;
   animation-name: slidein;
   animation-fill-mode: forwards;
