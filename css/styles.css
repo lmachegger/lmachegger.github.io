@@ -104,21 +104,6 @@ body {
   animation-fill-mode: forwards;
 }
 
-#prevWork {
-  opacity: 0;
-  animation-delay: 0.6s;
-  animation-duration: 0.5s;
-  animation-name: slidein;
-  animation-fill-mode: forwards;
-}
-
-#work {
-  opacity: 0;
-  animation-delay: 0.7s;
-  animation-duration: 0.5s;
-  animation-name: slidein;
-  animation-fill-mode: forwards;
-}
 #footer {
   opacity: 0;
   animation-delay: 0.8s;
@@ -133,33 +118,8 @@ body {
   height: 30px;
 }
 
-.wrapper {
-  text-align: center;
-  display: block;
-}
-
-.wrapper ul li {
-  flex: 1; /* distribute all available space evenly among flex items */
-  display: flex; /* make each flex item a flex container, as well */
-  align-items: center; /* center text vertically (in this case) */
-  justify-content: center; /* center text horizontally (in this case) */
-  padding: 2px 5px;
-  padding-bottom: 5px;
-}
-.wrapper ul {
-  flex-direction: column;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  font-family: "Trade Gothic LT Com Roman", sans-serif;
-  font-size: 15px;
-  color: rgb(190, 190, 190);
-  line-height: 16px;
-}
-
 .footer ul {
   text-align: center;
-  /*vertical-align: middle;*/
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -180,12 +140,6 @@ body {
 
 .footer li {
   display: inline-block;
-  /*float: left;
-    padding: 2px 5px;
-	list-style-type: none;
-	clear: left;
-	padding-bottom: 5px;
-	text-align: center;*/
   height: 2em;
   padding: 2px 5px;
   padding-top: 5px;
