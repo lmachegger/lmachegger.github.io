@@ -32,14 +32,10 @@ body {
   color: rgb(190, 190, 190);
   line-height: 26px;
   vertical-align: baseline;
-  font-weight: 400px;
-  padding-top: 20px;
 }
 
 @keyframes slidein {
   from {
-    /*margin-left: 100%;
-		/*width: 100%;*/
     transform: translate3d(5vw, 0px, 0px);
     opacity: 0;
   }
@@ -93,6 +89,7 @@ body {
   animation-duration: 0.5s;
   animation-name: slidein;
   animation-fill-mode: forwards;
+  margin: 30px 0;
 }
 
 #socialicons {
@@ -104,52 +101,10 @@ body {
   animation-fill-mode: forwards;
 }
 
-#footer {
-  opacity: 0;
-  animation-delay: 0.8s;
-  animation-duration: 0.5s;
-  animation-name: slidein;
-  animation-fill-mode: forwards;
-}
-
 #socialicons img {
   display: inline-block;
   margin: 0.5em;
   height: 30px;
-}
-
-.footer ul {
-  text-align: center;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  padding-top: 30px;
-  /* For IE, the outcast */
-  zoom: 1;
-  *display: inline;
-  font-family: "Trade Gothic LT Com Roman", sans-serif;
-  font-size: 15px;
-  color: rgb(190, 190, 190);
-  opacity: 0;
-  animation-delay: 0.8s;
-  animation-duration: 0.5s;
-  animation-name: slidein;
-  animation-fill-mode: forwards;
-  line-height: 16px;
-}
-
-.footer li {
-  display: inline-block;
-  height: 2em;
-  padding: 2px 5px;
-  padding-top: 5px;
-}
-
-.footer,
-.push {
-  height: 50px;
-  color: rgb(220, 220, 220);
-  text-align: center;
 }
 
 a:link {
@@ -168,4 +123,19 @@ a:hover {
 a:active {
   color: rgb(242, 102, 0);
   text-decoration: underline;
+}
+
+#footer-container {
+  width: 70%;
+  margin: auto;
+  opacity: 0;
+  animation-delay: 0.6s;
+  animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
+
+#footer-elements {
+  display: flex;
+  justify-content: space-around;
 }
