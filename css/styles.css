@@ -31,7 +31,7 @@ body {
   text-align: center;
   font-family: "Trade Gothic LT Com Roman", sans-serif;
   font-size: 16px;
-  color: rgb(220, 220, 220);
+  color: rgb(255, 255, 255);
   line-height: 26px;
   vertical-align: baseline;
 }
@@ -63,7 +63,7 @@ body {
   margin: 3.5em auto 1.5em;
   text-align: center;
   /* margin-bottom: 10px; */
-  border: 2px solid #bebebe;
+  border: 2px solid #ffffff;
   -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),
     inset 0px 3px 8px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),
@@ -188,20 +188,20 @@ body {
 }
 
 a:link {
-  color: rgb(220, 220, 220);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 a:visited {
-  color: rgb(220, 220, 220);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 a:hover {
-  color: rgb(220, 220, 220);
+  color: rgb(255, 255, 255);
   text-decoration: underline;
 }
 
 a:active {
-  color: rgb(242, 102, 0);
+  color: rgb(255, 255, 255);
   text-decoration: underline;
 }
 
