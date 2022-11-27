@@ -49,6 +49,7 @@ body {
 }
 
 #profile-image {
+  pointer-events: none;
   display: block;
   width: 100px;
   height: 100px;
@@ -72,6 +73,7 @@ body {
 }
 
 #profile-image img {
+  pointer-events: none;
   max-width: 100%;
   height: auto;
   vertical-align: middle;
