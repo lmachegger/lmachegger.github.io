@@ -10,7 +10,7 @@ Track issues found in the static portfolio site. Check off as they're fixed, one
 - [x] Add `lang="en"` to the `<html>` element.
 - [x] Remove `user-scalable=no` from the viewport meta (allow pinch-to-zoom).
 - [x] Add `prefers-reduced-motion` handling for the slide-in animations.
-- [ ] Review color contrast and focus states for keyboard navigation.
+- [x] Reviewed color contrast and focus states (no code changes needed).
 
 ## SEO / metadata
 - [ ] Add Open Graph / Twitter Card metadata for better link previews.
