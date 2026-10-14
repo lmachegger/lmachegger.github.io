@@ -7,8 +7,8 @@ Track issues found in the static portfolio site. Check off as they're fixed, one
 - [x] Make profile image `alt` text descriptive (`alt="Portrait photo of Lukas Machegger"`).
 
 ## Accessibility
-- [ ] Add `lang="en"` to the `<html>` element.
-- [ ] Remove `user-scalable=no` from the viewport meta (allow pinch-to-zoom).
+- [x] Add `lang="en"` to the `<html>` element.
+- [x] Remove `user-scalable=no` from the viewport meta (allow pinch-to-zoom).
 - [ ] Add `prefers-reduced-motion` handling for the slide-in animations.
 - [ ] Review color contrast and focus states for keyboard navigation.
 
