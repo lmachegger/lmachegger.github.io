@@ -15,7 +15,8 @@ Track issues found in the static portfolio site. Check off as they're fixed, one
 ## SEO / metadata
 - [ ] Add Open Graph / Twitter Card metadata for better link previews.
 - [x] Add a favicon generated from `profile200.jpg` (`favicon.ico`, `favicon-32x32.png`, `apple-touch-icon.png`).
-- [ ] (Optional) Add `robots.txt` and a basic sitemap.
+- [x] Add basic `robots.txt`.
+- [ ] (Optional) Add a basic sitemap.
 
 ## Security / links
 - [ ] Add `rel="noopener noreferrer"` to `target="_blank"` links.
