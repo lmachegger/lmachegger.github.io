@@ -223,3 +223,25 @@ a:active {
 #footer-elements p {
   margin: 0.4em;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+
+  #profile-image,
+  #dev-icons,
+  #name,
+  #jobtitle,
+  #description,
+  #socialicons-text,
+  #socialicons,
+  #footer-container {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
